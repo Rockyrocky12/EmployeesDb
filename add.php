@@ -27,23 +27,23 @@ if(isset($_POST['Submit'])) {
 		}
 		
 		if(empty($FirstName)) {
-			echo "<font color='red'>Age field is empty.</font><br/>";
+			echo "<font color='red'>field is empty.</font><br/>";
 		}
 		
 		if(empty($LastName)) {
-			echo "<font color='red'>Email field is empty.</font><br/>";
+			echo "<font color='red'>field is empty.</font><br/>";
 		}
 		if(empty($Gender)) {
-			echo "<font color='red'>Email field is empty.</font><br/>";
+			echo "<font color='red'>field is empty.</font><br/>";
 		}
 		if(empty($Department)) {
-			echo "<font color='red'>Email field is empty.</font><br/>";
+			echo "<font color='red'>field is empty.</font><br/>";
 		}
 		if(empty($DateEmployed)) {
-			echo "<font color='red'>Email field is empty.</font><br/>";
+			echo "<font color='red'> field is empty.</font><br/>";
 		}
 		if(empty($Salary)) {
-			echo "<font color='red'>Email field is empty.</font><br/>";
+			echo "<font color='red'>field is empty.</font><br/>";
 		}
 		
 		//link to the previous page

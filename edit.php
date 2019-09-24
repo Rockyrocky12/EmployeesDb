@@ -96,31 +96,31 @@ while($row = $query->fetch(PDO::FETCH_ASSOC))
 		<table border="0">
 			<tr> 
 				<td>ID</td>
-				<td><input type="text" name="eid" value="<?php echo $name;?>"></td>
+				<td><input type="text" name="eid" value="<?php echo $ID;?>"></td>
 			</tr>
 			<tr> 
 				<td>First Name</td>
-				<td><input type="text" name="eFirstName" value="<?php echo $name;?>"></td>
+				<td><input type="text" name="eFirstName" value="<?php echo $FirstName;?>"></td>
 			</tr>
 			<tr> 
 				<td>Last Name</td>
-				<td><input type="text" name="eLastName" value="<?php echo $name;?>"></td>
+				<td><input type="text" name="eLastName" value="<?php echo $LastName;?>"></td>
 			</tr>
 			<tr> 
 				<td>Gender</td>
-				<td><input type="text" name="eGender" value="<?php echo $name;?>"></td>
+				<td><input type="text" name="eGender" value="<?php echo $Gender;?>"></td>
 			</tr>
 			<tr> 
 				<td>Department</td>
-				<td><input type="text" name="eDepartment" value="<?php echo $name;?>"></td>
+				<td><input type="text" name="eDepartment" value="<?php echo $Department;?>"></td>
 			</tr>
 			<tr> 
 				<td>Date Employed</td>
-				<td><input type="text" name="eDateEmployed" value="<?php echo $name;?>"></td>
+				<td><input type="text" name="eDateEmployed" value="<?php echo $DateEmployed;?>"></td>
 			</tr>
 			<tr> 
 				<td>Salary</td>
-				<td><input type="text" name="eSalary" value="<?php echo $name;?>"></td>
+				<td><input type="text" name="eSalary" value="<?php echo $Salary;?>"></td>
 			</tr>
 			
 			
